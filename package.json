@@ -1,0 +1,41 @@
+{
+  
+  "name": "msgp",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Streaming MessagePack De/Encoder",
+  "keywords": [ "MessagePack", "message", "pack", "msgpack" ],
+  
+  "author": {
+    "name": "Jonas Hermsmeier",
+    "email": "jhermsmeier@gmail.com",
+    "url": "https://github.com/jhermsmeier"
+  },
+  
+  "main": "lib/msgp.js",
+  
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha",
+    "bench": "node node_modules/matcha/bin/matcha"
+  },
+  
+  "dependencies": {
+    "derive": "latest",
+    "int64-native": "latest"
+  },
+  
+  "devDependencies": {
+    "matcha": "latest",
+    "mocha": "latest"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhermsmeier/node-msgp.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-msgp/issues"
+  }
+  
+}
